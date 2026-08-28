@@ -411,5 +411,9 @@ function renderWeak(){let a=JSON.parse(localStorage.getItem("weak")||"[]");docum
 Object.keys(defs).forEach(x=>document.getElementById("cat").add(new Option(x,x)));
 updateCalc();renderWeak();
 </script>
+<script type="module">
+import { injectSpeedInsights } from './node_modules/@vercel/speed-insights/dist/index.mjs';
+injectSpeedInsights();
+</script>
 </body>
 </html>
