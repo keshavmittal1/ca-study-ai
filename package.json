@@ -1,0 +1,32 @@
+{
+  "name": "ca-study-ai",
+  "version": "1.0.0",
+  "description": "AI-powered study platform for CA/CMA/CS professional exam preparation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000 -o",
+    "start": "npx http-server -p 3000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavmittal1/ca-study-ai.git"
+  },
+  "keywords": [
+    "ca",
+    "study",
+    "ai",
+    "education",
+    "exam-preparation",
+    "speed-insights"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keshavmittal1/ca-study-ai/issues"
+  },
+  "homepage": "https://github.com/keshavmittal1/ca-study-ai#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
